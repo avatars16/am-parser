@@ -205,3 +205,6 @@ test_output/dm/readme.txt
 test_output/dm/test.id/en.id.dm.sdp
 test_output/dm/test.ood/en.ood.dm.sdp
 test_output/dm/train/train-supertags.txt
+
+data/AMR/
+configs/
