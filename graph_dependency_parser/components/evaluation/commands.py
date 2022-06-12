@@ -68,13 +68,14 @@ class BashEvaluationCommand(BaseEvaluationCommand):
         """
         with TemporaryDirectory() as direc:
             cmd = self.command.format(system_output=system_output, gold_file=gold_file, tmp=direc)
-            with subprocess.Popen([cmd], shell=True, stdout=subprocess.PIPE) as proc:
+            with subprocess.Popen([cmd], shell=True, stdout=subprocess.PIPE) as proc: #this errors python2 not found
                 result = bytes.decode(proc.stdout.read())  # output of shell commmand as string
                 result_lines = result.split("\n")
                 if self.show_output:
                     print(result)
                 metrics = dict()
                 for metric_name, (line_number,regex) in self.result_regex.items():
+                    print("Result",result, "result lines", result_lines,"regex", regex, "metric_name", metric_name)
                     m = re.search(regex, result_lines[line_number])
                     if m:
                         val = float(m.group("value"))

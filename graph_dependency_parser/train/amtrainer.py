@@ -499,6 +499,8 @@ class AMTrainer(TrainerBase):
             metrics["best_validation_" + key] = value
 
         for epoch in range(epoch_counter, self._num_epochs):
+            logger.info(" ")
+            logger.info("new epoch")
             epoch_start_time = time.time()
             train_metrics = self._train_epoch(epoch)
 

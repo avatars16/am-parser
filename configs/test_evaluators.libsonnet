@@ -66,8 +66,8 @@ function (dataset_reader, data_iterator) {
   "AMR-2015" :  [ ["AMR-2015",{ #prefix used for evaluation metric
         "type": "standard_evaluator",
         "formalism" : "AMR-2015",
-        "system_input" : "data/AMR/2015/test/test.amconll",
-        "gold_file": "data/AMR/2015/test/goldAMR.txt",
+        "system_input" : "data/AMR/test/test/test.amconll",
+        "gold_file": "data/AMR/test/test/goldAMR.txt",
         "predictor" : {
                 "type" : "amconll_predictor",
                 "dataset_reader" : dataset_reader,
@@ -82,8 +82,8 @@ function (dataset_reader, data_iterator) {
     "AMR-2017" :  [ ["AMR-2017",{ #prefix used for evaluation metric
         "type": "standard_evaluator",
         "formalism" : "AMR-2017",
-        "system_input" : "data/AMR/2017/test/test.amconll",
-        "gold_file": "data/AMR/2017/test/goldAMR.txt",
+        "system_input" : "data/AMR/test/test/test.amconll",
+        "gold_file": "data/AMR/test/test/goldAMR.txt",
         "predictor" : {
                 "type" : "amconll_predictor",
                 "dataset_reader" : dataset_reader,
