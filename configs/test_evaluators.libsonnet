@@ -66,8 +66,8 @@ function (dataset_reader, data_iterator) {
   "AMR-2015" :  [ ["AMR-2015",{ #prefix used for evaluation metric
         "type": "standard_evaluator",
         "formalism" : "AMR-2015",
-        "system_input" : "data/AMR/test/test/test.amconll",
-        "gold_file": "data/AMR/test/test/goldAMR.txt",
+        "system_input" : "data/AMR/2015/test/test.amconll",
+        "gold_file": "data/AMR/2015/test/goldAMR.txt",
         "predictor" : {
                 "type" : "amconll_predictor",
                 "dataset_reader" : dataset_reader,
@@ -82,8 +82,8 @@ function (dataset_reader, data_iterator) {
     "AMR-2017" :  [ ["AMR-2017",{ #prefix used for evaluation metric
         "type": "standard_evaluator",
         "formalism" : "AMR-2017",
-        "system_input" : "data/AMR/test/test/test.amconll",
-        "gold_file": "data/AMR/test/test/goldAMR.txt",
+        "system_input" : "data/AMR/toy/test/test.amconll",
+        "gold_file": "data/AMR/toy/test/goldAMR.txt",
         "predictor" : {
                 "type" : "amconll_predictor",
                 "dataset_reader" : dataset_reader,
@@ -109,6 +109,40 @@ function (dataset_reader, data_iterator) {
                   "threads" : 8,
                   "give_up": give_up,
                   "evaluation_command" : eval_commands['commands']['AMR-2020']
+          }
+
+    }]],
+
+    "AMR-toy" :  [ ["AMR-toy",{ #prefix used for evaluation metric
+          "type": "standard_evaluator",
+          "formalism" : "AMR-toy",
+          "system_input" : "data/AMR/toy/test/test.amconll",
+          "gold_file": "data/AMR/toy/test/goldAMR.txt",
+          "predictor" : {
+                  "type" : "amconll_predictor",
+                  "dataset_reader" : dataset_reader,
+                  "data_iterator" : data_iterator,
+                  "k" : k,
+                  "threads" : 8,
+                  "give_up": give_up,
+                  "evaluation_command" : eval_commands['commands']['AMR-toy']
+          }
+
+    }]],
+
+    "AMR-lprince" :  [ ["AMR-lprince",{ #prefix used for evaluation metric
+          "type": "standard_evaluator",
+          "formalism" : "AMR-lprince",
+          "system_input" : "data/AMR/lprince/test/test.amconll",
+          "gold_file": "data/AMR/lprince/test/goldAMR.txt",
+          "predictor" : {
+                  "type" : "amconll_predictor",
+                  "dataset_reader" : dataset_reader,
+                  "data_iterator" : data_iterator,
+                  "k" : k,
+                  "threads" : 8,
+                  "give_up": give_up,
+                  "evaluation_command" : eval_commands['commands']['AMR-lprince']
           }
 
     }]],

@@ -48,8 +48,8 @@ function (dataset_reader, data_iterator) {
   "AMR-2015" :  {
         "type": "standard_evaluator",
         "formalism" : "AMR-2015",
-        "system_input" : "data/AMR/test/dev/dev.amconll",
-        "gold_file": "data/AMR/test/dev/goldAMR.txt",
+        "system_input" : "data/AMR/2015/dev/dev.amconll",
+        "gold_file": "data/AMR/2015/dev/goldAMR.txt",
         "use_from_epoch" : 10,
         "predictor" : {
                 "type" : "amconll_predictor",
@@ -66,8 +66,8 @@ function (dataset_reader, data_iterator) {
     "AMR-2017" :  {
         "type": "standard_evaluator",
         "formalism" : "AMR-2017",
-        "system_input" : "data/AMR/test/dev/dev.amconll",
-        "gold_file": "data/AMR/test/dev/goldAMR.txt",
+        "system_input" : "data/AMR/lprince/dev/dev.amconll",
+        "gold_file": "data/AMR/lprince/dev/goldAMR.txt",
         "use_from_epoch" : 10,
         "predictor" : {
                 "type" : "amconll_predictor",
@@ -95,6 +95,42 @@ function (dataset_reader, data_iterator) {
                   "threads" : 4,
                   "give_up": give_up, #retry with smaller k
                   "evaluation_command" : eval_commands['commands']['AMR-2020']
+          }
+
+    },
+
+        "AMR-toy" :  {
+                "type": "standard_evaluator",
+                "formalism" : "AMR-toy",
+                "system_input" : "data/AMR/toy/dev/dev.amconll",
+                "gold_file": "data/AMR/toy/dev/goldAMR.txt",
+                "use_from_epoch" : 10,
+                "predictor" : {
+                        "type" : "amconll_predictor",
+                        "dataset_reader" : dataset_reader, #same dataset_reader as above.
+                        "data_iterator" : data_iterator, #same bucket iterator also for validation.
+                        "k" : k,
+                        "threads" : 4,
+                        "give_up": give_up, #retry with smaller k
+                        "evaluation_command" : eval_commands['commands']['AMR-toy']
+          }
+
+    },
+
+        "AMR-lprince" :  {
+                "type": "standard_evaluator",
+                "formalism" : "AMR-lprince",
+                "system_input" : "data/AMR/lprince/dev/dev.amconll",
+                "gold_file": "data/AMR/lprince/dev/goldAMR.txt",
+                "use_from_epoch" : 10,
+                "predictor" : {
+                        "type" : "amconll_predictor",
+                        "dataset_reader" : dataset_reader, #same dataset_reader as above.
+                        "data_iterator" : data_iterator, #same bucket iterator also for validation.
+                        "k" : k,
+                        "threads" : 4,
+                        "give_up": give_up, #retry with smaller k
+                        "evaluation_command" : eval_commands['commands']['AMR-lprince']
           }
 
     },

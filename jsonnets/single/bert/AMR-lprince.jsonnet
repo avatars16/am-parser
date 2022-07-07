@@ -35,8 +35,8 @@ local use_freda = 0; #0 = no, 1 = yes
 local final_encoder_output_dim = 2 * encoder_output_dim + use_freda * 2 * encoder_output_dim; #freda again doubles output dimension
 
 #============TASKS==============
-local my_tasks = ["AMR-2017"];
-local main_task = "AMR-2017"; #what validation metric to pay attention to.
+local my_tasks = ["AMR-lprince"];
+local main_task = "AMR-lprince"; #what validation metric to pay attention to.
 #===============================
 
 local dataset_reader = {
@@ -61,11 +61,8 @@ local data_iterator = {
     "iterator": data_iterator,
      "vocabulary" : {
             "min_count" : {
-                "lemmas" : 7
-            },
-            "tokens_to_add": {
-                "ner_labels": [ "@@UNKNOWN@@" ],
-            }
+            "lemmas" : 7
+     }
      },
     "model": {
         "type": "graph_dependency_parser",

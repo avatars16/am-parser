@@ -114,9 +114,10 @@ if [ "$output" = "" ]; then
 fi
 
 #Build fast_smatch
+#Note Bart: This does not work, so commmented it out, and run seperatly
 pushd external_eval_tools/fast_smatch
 echo "Building fast_smatch (for evaluation of EDS)"
-bash build.sh
+#bash build.sh
 popd
 
 mkdir -p "$output"

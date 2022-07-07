@@ -1,0 +1,21 @@
+#preprocessing AMR:
+time bash scripts/preprocess_amr.sh -d <dir name> -o <output_directory>
+time bash scripts/preprocess_amr.sh -d example/decomposition/amr/ -o data/AMR/toy &> data/AMR/toy/preprocessing.log
+time bash scripts/preprocess_amr.sh -d example/decomposition/amr/
+time bash scripts/preprocess_amr.sh -d example/decomposition/amr-lprince/ -o data/AMR/lprince &> data/AMR/lprince/preprocessing.log
+
+#Move files from the output folder in output dir to output dir itself
+
+#Training scripts
+python -u train.py <config-file> -s <where to save the model>  -f --file-friendly-logging  -o ' {"trainer" : {"cuda_device" :  <your cuda device>  } }' &> <where to log output>
+
+python -u train.py jsonnets/single/bert/AMR-2017.jsonnet -s data/AMR/lprince/model  -f --file-friendly-logging  -o ' {"trainer" : {"cuda_device" :  -1  } }' &> data/AMR/lprince/training.log
+
+python -u train.py jsonnets/single/bert/AMR-2017.jsonnet -s data/AMR/toy/model  -f --file-friendly-logging  -o ' {"trainer" : {"cuda_device" :  -1  } }' &> data/AMR/toy/toytraining.log
+
+
+#evaluating the model
+bash scripts/predict.sh -i <input corpus file> -T <graph formalism> -o <output directory> -m <your model>
+bash scripts/predict.sh -i example/decomposition/amr/corpus/test -T AMR -o data/AMR/toy/predict -m data/AMR/toy/model/model.tar.gz &> data/AMR/toy/predict.log
+bash scripts/predict.sh -i example/decomposition/amr-lprince/corpus/test -T AMR-2017 -o data/AMR/lprince/predict -m data/AMR/lprince/model/model.tar.gz &> data/AMR/lprince/predict.log
+

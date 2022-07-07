@@ -74,8 +74,8 @@ class BashEvaluationCommand(BaseEvaluationCommand):
                 if self.show_output:
                     print(result)
                 metrics = dict()
+                #if result:
                 for metric_name, (line_number,regex) in self.result_regex.items():
-                    print("Result",result, "result lines", result_lines,"regex", regex, "metric_name", metric_name)
                     m = re.search(regex, result_lines[line_number])
                     if m:
                         val = float(m.group("value"))
