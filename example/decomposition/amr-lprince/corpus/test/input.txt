@@ -1,0 +1,1824 @@
+# ::id lpp_1943.5 ::date 2012-06-07T17:06:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt In the book it said : " Boa constrictors swallow their prey whole , without chewing it .
+# ::save-date Fri Sep 6, 2013 ::file lpp_1943_5.txt
+(s2 / say-01
+      :ARG0 (b2 / book)
+      :ARG1 (s / swallow-01
+            :ARG0 (b / boa
+                  :mod (c / constrictor))
+            :ARG1 (p / prey
+                  :mod (w / whole)
+                  :poss b)
+            :manner (c2 / chew-01 :polarity -
+                  :ARG0 b
+                  :ARG1 p)))
+
+# ::id lpp_1943.15 ::date 2012-06-07T17:46:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt But since the grown - ups were not able to understand it , I made another drawing : I drew the inside of the boa constrictor , so that the grown - ups could see it clearly .
+# ::save-date Tue Jan 23, 2018 ::file lpp_1943_15.txt
+(c / contrast-01
+      :ARG2 (a2 / and
+            :op1 (d3 / draw-01
+                  :ARG0 (i / i)
+                  :ARG1 (p2 / picture
+                        :mod (a / another))
+                  :ARG1-of (c3 / cause-01
+                        :ARG0 (p3 / possible-01 :polarity -
+                              :ARG1 (u / understand-01
+                                    :ARG0 (g / grown-up)
+                                    :ARG1 (i2 / it)))))
+            :op2 (d / draw-01
+                  :ARG0 i
+                  :ARG1 (i3 / inside
+                        :part-of (b2 / boa
+                              :mod (c4 / constrictor)))
+                  :purpose (p / possible-01
+                        :ARG1 (s / see-01
+                              :ARG0 g
+                              :ARG1 i2
+                              :ARG1-of (c2 / clear-06))))))
+
+# ::id lpp_1943.25 ::date 2012-07-17T13:14:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt In the course of this life I have had a great many encounters with a great many people who have been concerned with matters of consequence .
+# ::save-date Thu Nov 2, 2017 ::file lpp_1943_25.txt
+(e / encounter-01
+      :ARG0 (i / i)
+      :ARG1 (p / person
+            :quant (m2 / many
+                  :mod (g2 / great))
+            :ARG1-of (c / concern-01
+                  :ARG0 (m3 / matter
+                        :ARG1-of (c2 / consequential-01))))
+      :quant (m / many
+            :mod (g / great))
+      :time (c3 / course
+            :poss (l / life
+                  :mod (t / this))))
+
+# ::id lpp_1943.35 ::date 2012-07-24T10:08:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt And the grown - up would be greatly pleased to have met such a sensible man .
+# ::save-date Tue May 5, 2015 ::file lpp_1943_35.txt
+(a / and
+      :op2 (p / please-01
+            :ARG0 (m / meet-02
+                  :ARG0 g
+                  :ARG1 (m2 / man
+                        :ARG2-of (s / sense-02
+                              :degree (s2 / such))))
+            :ARG1 (g / grown-up)
+            :degree (g2 / great)))
+
+# ::id lpp_1943.45 ::date 2012-07-24T11:28:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What ! "
+# ::save-date Mon Nov 2, 2015 ::file lpp_1943_45.txt
+(s / string-entity :value "what")
+
+# ::id lpp_1943.55 ::date 2012-07-24T12:05:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt Now I stared at this sudden apparition with my eyes fairly starting out of my head in astonishment .
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_55.txt
+(s / stare-01
+      :ARG0 (i / i)
+      :ARG1 (t / thing
+            :ARG1-of (a / appear-01
+                  :manner (s2 / sudden))
+            :mod (t2 / this))
+      :time (n / now)
+      :manner (s3 / start-03
+            :ARG0 (e / eye
+                  :part-of i)
+            :ARG1-of (c / cause-01
+                  :ARG0 (a2 / astonish-01
+                        :ARG1 i))
+            :ARG1-of (f / fair-04)
+            :manner (o / out-06
+                  :ARG1 e
+                  :ARG2 (h / head
+                        :part-of i))))
+
+# ::id lpp_1943.65 ::date 2012-07-24T13:09:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt Draw me a sheep ... "
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_65.txt
+(d / draw-01
+  :ARG0 (y / you)
+  :ARG1 (s / sheep)
+  :ARG2 (i / i)
+  :mode imperative)
+
+# ::id lpp_1943.75 ::date 2012-07-24T13:25:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt So then I made a drawing .
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_75.txt
+(c / cause-01
+  :ARG1 (d / draw-01
+          :ARG0 (i / i)
+          :time (t2 / then)))
+
+# ::id lpp_1943.85 ::date 2012-07-24T13:34:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt But it was rejected too , just like the others .
+# ::save-date Mon May 13, 2013 ::file lpp_1943_85.txt
+(c / contrast-01
+      :ARG1 (r / reject-01
+            :ARG1 (i / it)
+            :ARG1-of (r2 / resemble-01
+                  :ARG2 (o / other))
+            :mod (t / too)))
+
+# ::id lpp_1943.95 ::date 2012-07-31T07:04:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Why ? "
+# ::save-date Tue Jul 31, 2012 ::file lpp_1943_95.txt
+(c / cause-01
+      :ARG0 (a / amr-unknown))
+
+# ::id lpp_1943.105 ::date 2012-07-31T07:42:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince , who asked me so many questions , never seemed to hear the ones I asked him .
+# ::save-date Wed Apr 8, 2015 ::file lpp_1943_105.txt
+(s / seem-01
+      :ARG1 (h / hear-01 :polarity -
+            :ARG0 (p / prince
+                  :mod (l / little)
+                  :ARG0-of (q / question-01
+                        :ARG2 (i / i)
+                        :quant (m / many
+                              :degree (s2 / so))))
+            :ARG1 (o / one
+                  :ARG1-of (a2 / ask-01
+                        :ARG0 i
+                        :ARG2 p))
+            :time (e2 / ever)))
+
+# ::id lpp_1943.115 ::date 2012-07-31T08:24:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes , "
+# ::save-date Wed May 1, 2013 ::file lpp_1943_115.txt
+(y2 / yes)
+
+# ::id lpp_1943.125 ::date 2012-07-31T08:57:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt He tossed his head gently , without taking his eyes from my plane : " It is true that on that you can n't have come from very far away ... "
+# ::save-date Mon Sep 11, 2017 ::file lpp_1943_125.txt
+(a / and
+      :op1 (t / toss-01
+            :ARG0 (h / he)
+            :ARG1 (h2 / head
+                  :part-of h)
+            :manner (g / gentle)
+            :manner (t2 / take-away-05 :polarity -
+                  :ARG0 h
+                  :ARG1 (e / eye
+                        :part-of h)
+                  :source (p2 / plane
+                        :poss (i / i))))
+      :op2 (s / say-01
+            :ARG0 h
+            :ARG1 (p / possible-01 :polarity -
+                  :ARG1 (c / come-01
+                        :ARG1 (y / you)
+                        :ARG3 (a2 / away
+                              :extent (f / far
+                                    :degree (v / very)))
+                        :manner p2))))
+
+# ::id lpp_1943.135 ::date 2012-07-31T10:55:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt And if you are good I will give you a string , too , so that you can tie him during the day , and a post to tie him to . "
+# ::save-date Mon Feb 29, 2016 ::file lpp_1943_135.txt
+(a / and
+      :op2 (g / give-01
+            :ARG0 (i / i)
+            :ARG1 (a2 / and
+                  :op1 (s / string
+                        :ARG3-of (t / tie-01
+                              :ARG0 y
+                              :ARG1 (h / he)
+                              :time (d / date-entity
+                                    :dayperiod (d2 / day))))
+                  :op2 (p2 / post
+                        :purpose (t3 / tie-01
+                              :ARG0 y
+                              :ARG1 h)))
+            :ARG2 (y / you)
+            :condition (g2 / good-02
+                  :ARG1 y)))
+
+# ::id lpp_1943.145 ::date 2012-07-31T11:17:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt And , with perhaps a hint of sadness , he added : " Straight ahead of him , nobody can go very far ... "
+# ::save-date Mon Sep 18, 2017 ::file lpp_1943_145.txt
+(a / and
+      :op2 (a2 / add-01
+            :ARG0 (h / he)
+            :ARG1 (g / go-02
+                  :ARG0 (s2 / somebody :polarity -)
+                  :ARG4 (f / far
+                        :degree (v / very))
+                  :direction (a3 / ahead
+                        :op1 s2
+                        :ARG1-of (s3 / straight-04)))
+            :manner (s / sad-02
+                  :quant (h2 / hint)
+                  :ARG1-of (p / possible-01))))
+
+# ::id lpp_1943.155 ::date 2012-07-31T11:53:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt On making his discovery , the astronomer had presented it to the International Astronomical Congress , in a great demonstration .
+# ::save-date Thu Jan 28, 2016 ::file lpp_1943_155.txt
+(p / present-01
+      :ARG0 a
+      :ARG1 (i / it)
+      :ARG2 (o / organization :wiki "International_Astronautical_Congress" :name (n / name :op1 "International" :op2 "Astronomical" :op3 "Congress"))
+      :manner (d2 / demonstrate-01
+            :ARG0 a
+            :mod (g / great))
+      :time (d3 / discover-01
+            :ARG0 (a / astronomer)))
+
+# ::id lpp_1943.165 ::date 2012-07-31T12:53:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt Does he collect butterflies ? "
+# ::save-date Mon Sep 18, 2017 ::file lpp_1943_165.txt
+(c / collect-01
+      :ARG0 (h / he)
+      :ARG1 (b / butterfly)
+      :polarity (a / amr-unknown))
+
+# ::id lpp_1943.175 ::date 2012-07-31T13:20:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt If anybody wants a sheep , that is a proof that he exists . "
+# ::save-date Wed Apr 17, 2013 ::file lpp_1943_175.txt
+(p / prove-01
+  :ARG0 (w / want-01
+          :ARG0 (a / anybody)
+          :ARG1 (s / sheep))
+  :ARG1 (e / exist-01
+          :ARG1 a))
+
+# ::id lpp_1943.185 ::annotator ISI-AMR-05 ::preferred
+# ::snt To those who understand life , that would have given a much greater air of truth to my story .
+# ::save-date Tue Sep 19, 2017 ::file lpp_1943_185.txt
+(g / give-01
+      :ARG0 (t / that)
+      :ARG1 (t3 / truth
+            :quant (a / air
+                  :ARG1-of (h / have-degree-91
+                        :ARG2 (g2 / great)
+                        :ARG3 (m / more
+                              :quant (m2 / much)))))
+      :ARG2 (s / story
+            :poss (i / i))
+      :beneficiary (p / person
+            :ARG0-of (u / understand-01
+                  :ARG1 (l / life))))
+
+# ::id lpp_1943.195 ::date 2012-08-07T10:20:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt I shall certainly try to make my portraits as true to life as possible .
+# ::save-date Mon Sep 18, 2017 ::file lpp_1943_195.txt
+(t / try-01
+      :ARG0 (i / i)
+      :ARG1 (m / make-02
+            :ARG0 i
+            :ARG1 (h / have-degree-91
+                  :ARG1 (p / portrait
+                        :topic i)
+                  :ARG2 (t2 / true-02
+                        :ARG1 p
+                        :ARG2 (l / life))
+                  :ARG3 (e / equal)
+                  :ARG4 (p2 / possible-01
+                        :ARG1 t2)))
+      :mod (c / certain))
+
+# ::id lpp_1943.205 ::date 2012-08-07T11:01:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt But I , alas , do not know how to see sheep through the walls of boxes .
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_205.txt
+(c / contrast-01
+      :ARG2 (k / know-01 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (t2 / thing
+                  :manner-of (s / see-01
+                        :ARG1 (s2 / sheep)
+                        :path (t / through
+                              :op1 (w / wall
+                                    :consist-of (b2 / box))))))
+      :mod (a / alas))
+
+# ::id lpp_1943.215 ::date 2012-11-07T13:35:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah !
+# ::save-date Wed May 15, 2013 ::file lpp_1943_215.txt
+(a / ah :mode expressive)
+
+# ::id lpp_1943.225 ::date 2012-11-07T14:18:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But why do you want the sheep to eat the little baobabs ? "
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_225.txt
+(c / contrast-01
+      :ARG2 (c2 / cause-01
+            :ARG0 (a / amr-unknown)
+            :ARG1 (w / want-01
+                  :ARG0 (y / you)
+                  :ARG1 (e / eat-01
+                        :ARG0 (s / sheep)
+                        :ARG1 (b / baobab
+                              :mod (l / little))))))
+
+# ::id lpp_1943.235 ::date 2012-11-08T08:05:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt Now there were some terrible seeds on the planet that was the home of the little prince ; and these were the seeds of the baobab .
+# ::save-date Thu Nov 5, 2015 ::file lpp_1943_235.txt
+(b2 / be-located-at-91
+      :ARG1 (s / seed
+            :ARG1-of (t / terrible-01)
+            :quant (s2 / some)
+            :poss (b / baobab))
+      :ARG2 (p / planet
+            :location-of (h / home
+                  :poss (p2 / prince
+                        :mod (l / little))))
+      :time (n / now))
+
+# ::id lpp_1943.245 ::date 2012-11-08T08:35:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt And one day he said to me : " You ought to make a beautiful drawing , so that the children where you live can see exactly how all this is .
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_245.txt
+(a / and
+      :op1 (s / say-01
+            :ARG0 (h / he)
+            :ARG1 (r / recommend-01
+                  :ARG0 h
+                  :ARG1 (d3 / draw-01
+                        :ARG0 i
+                        :ARG1 (p2 / picture
+                              :ARG1-of (b / beautiful-02))
+                        :purpose (p / possible-01
+                              :ARG1 (s2 / see-01
+                                    :ARG0 (c / child
+                                          :location (l / live-01
+                                                :ARG0 i))
+                                    :ARG1 (t / this
+                                          :mod (a2 / all))
+                                    :manner (e / exact))))
+                  :ARG2 i)
+            :ARG2 (i / i)
+            :time (d / day
+                  :mod (o / one))))
+
+# ::id lpp_1943.255 ::date 2012-11-13T07:53:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt I say plainly , " watch out for the baobabs ! "
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_255.txt
+(s / say-01
+      :ARG0 (i / i)
+      :ARG1 (w / watch-out-02 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / baobab))
+      :manner (p / plain))
+
+# ::id lpp_1943.265 ::date 2012-11-13T08:14:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt Bit by bit I came to understand the secrets of your sad little life ...
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_265.txt
+(u / understand-01
+      :ARG0 (i / i)
+      :ARG1 (s / secret
+            :poss (l / life
+                  :poss (y / you)
+                  :mod (l2 / little)
+                  :ARG1-of (s2 / sad-02)))
+      :manner (b / bit-by-bit))
+
+# ::id lpp_1943.275 ::date 2012-11-14T11:00:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt At first you seemed to be very much surprised .
+# ::save-date Wed Aug 7, 2013 ::file lpp_1943_275.txt
+(s / seem-01
+      :ARG1 (s2 / surprise-01
+            :ARG1 (y / you)
+            :degree (m / much
+                  :degree (v / very)))
+      :time (a / at-first))
+
+# ::id lpp_1943.285 ::date 2012-11-15T08:26:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt And a little later you added : " You know -- one loves the sunset , when one is so sad ... "
+# ::save-date Tue Sep 19, 2017 ::file lpp_1943_285.txt
+(a / and
+      :op1 (a2 / add-01
+            :ARG0 (y / you)
+            :ARG1 (l3 / love-01
+                  :ARG0 (o / one)
+                  :ARG1 (s / sunset)
+                  :time (s2 / sad-02
+                        :ARG1 o
+                        :mod (s3 / so)))
+            :time (a3 / after
+                  :quant (l2 / little))))
+
+# ::id lpp_1943.295 ::date 2012-11-18T16:56:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes , even flowers that have thorns . "
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_295.txt
+(f / flower
+      :mod (e / even)
+      :ARG0-of (h / have-03
+            :ARG1 (t / thorn)))
+
+# ::id lpp_1943.305 ::date 2012-11-18T18:30:01 ::annotator ISI-AMR-05 ::preferred
+# ::snt Flowers have thorns just for spite ! "
+# ::save-date Sat Apr 20, 2013 ::file lpp_1943_305.txt
+(h / have-03
+      :ARG0 (f / flower)
+      :ARG1 (t / thorn)
+      :purpose (s / spite)
+      :mod (j / just))
+
+# ::id lpp_1943.315 ::date 2012-11-19T12:05:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt Again the little prince disturbed my thoughts .
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_315.txt
+(d / disturb-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (t / think-01
+            :ARG0 (i / i))
+      :mod (a / again))
+
+# ::id lpp_1943.325 ::date 2012-11-19T12:15:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt He looked at me there , with my hammer in my hand , my fingers black with engine - grease , bending down over an object which seemed to him extremely ugly ...
+# ::save-date Thu May 28, 2015 ::file lpp_1943_325.txt
+(l / look-01
+      :ARG0 (h / he)
+      :ARG1 (i / i
+            :ARG0-of (b2 / bend-01
+                  :destination (d / down)
+                  :location (o / object
+                        :mod (u / ugly
+                              :mod (s / seem-01
+                                    :ARG2 h)
+                              :degree (e2 / extreme))))
+            :ARG0-of (h4 / have-03
+                  :ARG1 (h2 / hammer
+                        :poss i)
+                  :location (h3 / hand
+                        :part-of i))
+            :ARG0-of (h5 / have-03
+                  :ARG1 (f / finger
+                        :part-of i
+                        :ARG1-of (b / black-04
+                              :ARG0 (g / grease
+                                    :mod (e / engine))))))
+      :location (t / there))
+
+# ::id lpp_1943.335 ::date 2012-11-19T12:33:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt He has never loved any one .
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_335.txt
+(l2 / love-01 :polarity -
+      :ARG0 (h3 / he)
+      :ARG1 (a2 / anyone)
+      :time (e / ever))
+
+# ::id lpp_1943.345 ::date 2012-11-24T07:10:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt Is the warfare between the sheep and the flowers not important ?
+# ::save-date Mon Sep 18, 2017 ::file lpp_1943_345.txt
+(i / important-01
+      :ARG1 (w / war-01
+            :ARG0 (s / sheep)
+            :ARG1 (f / flower))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id lpp_1943.355 ::date 2012-11-24T07:59:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt I had let my tools drop from my hands .
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_355.txt
+(l / let-01
+      :ARG0 (i / i)
+      :ARG1 (d / drop-01
+            :ARG1 (t / tool
+                  :poss i)
+            :ARG3 (h / hand
+                  :part-of i)))
+
+# ::id lpp_1943.365 ::date 2012-11-24T08:31:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt I did not know how I could reach him , where I could overtake him and go on hand in hand with him once more .
+# ::save-date Sat Jan 6, 2018 ::file lpp_1943_365.txt
+(k / know-01 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (a2 / and
+            :op1 (m / manner
+                  :manner-of (r / reach-02
+                        :ARG0 i
+                        :ARG1 (h / he)
+                        :ARG1-of (p / possible-01)))
+            :op2 (l / location
+                  :location-of (o / overtake-01
+                        :ARG0 i
+                        :ARG1 h
+                        :ARG1-of (p2 / possible-01))
+                  :location-of (g / go-on-15
+                        :ARG1 i
+                        :mod (a3 / again
+                              :mod (o2 / once))
+                        :manner (a / accompany-01
+                              :ARG0 h
+                              :ARG1 i
+                              :manner (h2 / hand-in-hand))))))
+
+# ::id lpp_1943.375 ::date 2012-11-24T16:41:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince , who was present at the first appearance of a huge bud , felt at once that some sort of miraculous apparition must emerge from it .
+# ::save-date Sat Jan 6, 2018 ::file lpp_1943_375.txt
+(f / feel-01
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG1-of (p2 / present-02
+                  :ARG2 (a / appear-01
+                        :ARG1 (b / bud
+                              :mod (h / huge))
+                        :ord (o2 / ordinal-entity :value 1))))
+      :ARG1 (o / obligate-01
+            :ARG2 (e / emerge-01
+                  :ARG0 (t / thing
+                        :ARG1-of (a4 / appear-01
+                              :manner (m / miraculous))
+                        :mod (s / sort))
+                  :ARG1 b))
+      :time (a2 / at-once-01))
+
+# ::id lpp_1943.385 ::date 2012-11-24T19:30:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt And , after working with all this painstaking precision , she yawned and said : " Ah !
+# ::save-date Tue Jun 9, 2015 ::file lpp_1943_385.txt
+(a / and
+      :op1 (y / yawn-01
+            :ARG0 (s2 / she))
+      :op2 (s / say-01
+            :ARG0 s2
+            :ARG1 (a2 / ah :mode expressive))
+      :time (a3 / after
+            :op1 (w / work-01
+                  :ARG0 s2
+                  :manner (p / precise
+                        :degree (p2 / painstaking)
+                        :mod (t / this)
+                        :mod (a4 / all)))))
+
+# ::id lpp_1943.395 ::date 2012-11-25T08:32:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt " If you would have the kindness to think of my needs - - "
+# ::save-date Mon May 4, 2015 ::file lpp_1943_395.txt
+(t / think-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t2 / thing
+            :ARG1-of (n / need-01
+                  :ARG0 (i / i)))
+      :ARG1-of (k2 / kind-01
+            :ARG0 y
+            :ARG2 i))
+
+# ::id lpp_1943.405 ::date 2012-11-25T08:45:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt I suppose you would n't have a screen for me ? "
+# ::save-date Mon Sep 18, 2017 ::file lpp_1943_405.txt
+(s / suppose-01
+      :ARG0 (i / i)
+      :ARG1 (h / have-03
+            :ARG0 (y / you)
+            :ARG1 (s2 / screen)
+            :beneficiary i
+            :ARG1-of (r / request-confirmation-91)))
+
+# ::id lpp_1943.415 ::date 2012-11-25T08:56:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I was just going to look for it when you spoke to me ... "
+# ::save-date Sun May 24, 2015 ::file lpp_1943_415.txt
+(l3 / look-01
+      :ARG0 (i / i)
+      :ARG1 (i2 / it)
+      :time (s3 / speak-01
+            :ARG0 (y2 / you)
+            :ARG2 i))
+
+# ::id lpp_1943.425 ::date 2012-11-25T09:09:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he continued his confidences : " The fact is that I did not know how to understand anything !
+# ::save-date Sat May 11, 2013 ::file lpp_1943_425.txt
+(a / and
+      :op1 (c / continue-02
+            :ARG0 (h / he)
+            :ARG1 (c2 / confide-01
+                  :ARG0 h
+                  :ARG1 (k / know-01 :polarity -
+                        :ARG0 h
+                        :ARG1 (t / thing
+                              :manner-of (u / understand-01
+                                    :ARG0 h
+                                    :ARG1 (a2 / anything)))))))
+
+# ::id lpp_1943.435 ::date 2012-11-11T12:41:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt He carefully cleaned out his active volcanoes .
+# ::save-date Mon Jul 20, 2015 ::file lpp_1943_435.txt
+(c / clean-out-03
+      :ARG0 (h / he)
+      :ARG1 (v / volcano
+            :poss h
+            :ARG0-of (a / activity-06))
+      :manner (c2 / careful))
+
+# ::id lpp_1943.445 ::date 2012-11-11T13:55:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt He believed that he would never want to return .
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_445.txt
+(b / believe-01
+      :ARG0 (h / he)
+      :ARG1 (w / want-01 :polarity -
+            :ARG0 h
+            :ARG1 (r / return-01
+                  :ARG1 h)
+            :time (e / ever)))
+
+# ::id lpp_1943.455 ::date 2012-11-11T15:00:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt Try to be happy ... "
+# ::save-date Thu Jan 21, 2016 ::file lpp_1943_455.txt
+(t / try-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (h / happy-01
+            :ARG1 y))
+
+# ::id lpp_1943.465 ::date 2012-11-11T16:48:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But the wind - - "
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_465.txt
+(c / contrast-01
+  :ARG2 (w / wind))
+
+# ::id lpp_1943.475 ::date 2012-11-11T17:50:01 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then she added : " Do n't linger like this .
+# ::save-date Mon Sep 18, 2017 ::file lpp_1943_475.txt
+(a / add-01
+      :ARG0 (s / she)
+      :ARG1 (l / linger-01 :polarity - :mode imperative
+            :ARG1 (y / you)
+            :manner (t3 / this))
+      :time (t / then))
+
+# ::id lpp_1943.485 ::date 2012-11-11T19:44:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah !
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_485.txt
+(a2 / ah :mode expressive)
+
+# ::id lpp_1943.495 ::date 2012-11-13T14:55:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I can n't help it .
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_495.txt
+(p / possible-01 :polarity -
+      :ARG1 (h / help-02
+            :ARG0 (i / i)
+            :ARG1 (i2 / it)))
+
+# ::id lpp_1943.505 ::date 2012-11-13T15:55:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt " That frightens me ...
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_505.txt
+(f / frighten-01
+  :ARG0 (t / that)
+  :ARG1 (i / i))
+
+# ::id lpp_1943.515 ::date 2012-11-13T18:24:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt " If I ordered a general , " he would say , by way of example , " if I ordered a general to change himself into a sea bird , and if the general did not obey me , that would not be the fault of the general .
+# ::save-date Fri Sep 13, 2013 ::file lpp_1943_515.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (o / order-01
+            :ARG0 h
+            :ARG1 (p / person
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG2 (g / general)))
+            :ARG2 (c / change-01
+                  :ARG0 p
+                  :ARG1 p
+                  :ARG2 (b / bird
+                        :mod (s2 / sea)))
+            :ARG1-of (o2 / obey-01 :polarity -
+                  :ARG0 p)
+            :condition-of (f / fault-01 :polarity -
+                  :ARG1 p))
+      :ARG0-of (e / exemplify-01))
+
+# ::id lpp_1943.525 ::date 2012-11-19T19:49:16 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Over everything , " said the king , with magnificent simplicity .
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_525.txt
+(s / say-01
+      :ARG0 (k / king)
+      :ARG1 (e / everything)
+      :ARG1-of (s2 / simple-02
+            :mod (m / magnificence)))
+
+# ::id lpp_1943.535 ::date 2012-11-19T20:30:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt Such power was a thing for the little prince to marvel at .
+# ::save-date Sun Apr 14, 2013 ::file lpp_1943_535.txt
+(m / marvel-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (p2 / power
+            :degree (s / such)))
+
+# ::id lpp_1943.545 ::date 2012-11-20T17:02:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt If you ordered your people to go and throw themselves into the sea , they would rise up in revolution .
+# ::save-date Sun Jan 31, 2016 ::file lpp_1943_545.txt
+(r / rise-up-03
+      :ARG0 (p / person
+            :poss y
+            :ARG0-of (r2 / revolution-03))
+      :ARG1 y
+      :condition (o / order-01
+            :ARG0 (y / you)
+            :ARG1 p
+            :ARG2 (t / throw-01
+                  :ARG0 p
+                  :ARG1 p
+                  :ARG2 (s / sea))))
+
+# ::id lpp_1943.555 ::date 2012-11-20T17:49:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt Hum !
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_555.txt
+(h / hum :mode expressive)
+
+# ::id lpp_1943.565 ::date 2012-11-25T18:08:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt I will make you a Minister ! "
+# ::save-date Fri Sep 13, 2013 ::file lpp_1943_565.txt
+(m / make-02
+      :ARG0 (i / i)
+      :ARG1 (h / have-org-role-91
+            :ARG0 (y / you)
+            :ARG2 (m2 / minister)))
+
+# ::id lpp_1943.575 ::date 2012-11-25T18:48:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt On that side , as on this , there was nobody at all ...
+# ::save-date Tue Dec 11, 2012 ::file lpp_1943_575.txt
+(n2 / nobody
+  :location (s / side
+              :mod (t / that)
+              :ARG1-of (s2 / same-01
+                         :ARG2 (t2 / this)))
+  :mod (a / at-all))
+
+# ::id lpp_1943.585 ::date 2012-11-25T19:55:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt I hear him at night .
+# ::save-date Sun Nov 25, 2012 ::file lpp_1943_585.txt
+(h / hear-01
+  :ARG0 (i / i)
+  :ARG1 (h2 / he)
+  :time (d / date-entity :dayperiod (n / night)))
+
+# ::id lpp_1943.595 ::date 2012-11-25T21:00:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " If Your Majesty wishes to be promptly obeyed , " he said , " he should be able to give me a reasonable order .
+# ::save-date Fri Jul 24, 2015 ::file lpp_1943_595.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (p / possible-01
+            :ARG1 (o / order-01
+                  :ARG0 (p2 / person
+                        :ARG1-of (t2 / title-01
+                              :ARG2 (m / majesty
+                                    :poss p2)))
+                  :ARG1 h
+                  :ARG2 (t / thing
+                        :ARG1-of (r / reasonable-02)))
+            :condition (w / wish-01
+                  :ARG0 p2
+                  :ARG1 (o2 / obey-01
+                        :ARG1 p2
+                        :manner (p3 / prompt)))))
+
+# ::id lpp_1943.605 ::date 2012-11-26T16:25:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah !
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_605.txt
+(a / ah :mode expressive)
+
+# ::id lpp_1943.615 ::date 2012-11-26T18:52:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Clap your hands , one against the other , " the conceited man now directed him .
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_615.txt
+(d / direct-01
+      :ARG0 (m / man
+            :mod (c / conceit))
+      :ARG1 (h / he)
+      :ARG2 (c2 / clap-01 :mode imperative
+            :ARG0 h
+            :ARG1 (h2 / hand
+                  :part-of h)
+            :manner (c3 / clap-01
+                  :ARG0 h
+                  :ARG1 (h3 / hand :quant 1
+                        :part-of h)
+                  :ARG2 (h4 / hand
+                        :part-of h
+                        :ARG1-of (d2 / differ-02
+                              :ARG2 h3))))
+      :time (n / now))
+
+# ::id lpp_1943.625 ::date 2012-11-26T19:59:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Do you really admire me very much ? " he demanded of the little prince .
+# ::save-date Mon Sep 18, 2017 ::file lpp_1943_625.txt
+(d / demand-01
+      :ARG0 (h / he)
+      :ARG1 (t / truth-value
+            :polarity-of (a / admire-01
+                  :ARG0 p
+                  :ARG1 h
+                  :degree (m / much
+                        :degree (v / very))
+                  :ARG1-of (r / real-04)))
+      :ARG2 (p / prince
+            :mod (l / little)))
+
+# ::id lpp_1943.635 ::date 2012-11-08T08:42:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt The next planet was inhabited by a tippler .
+# ::save-date Wed Nov 12, 2014 ::file lpp_1943_635.txt
+(i / inhabit-01
+      :ARG0 (p / person
+            :ARG0-of (t / tipple-01))
+      :ARG1 (p2 / planet
+            :mod (n / next)))
+
+# ::id lpp_1943.645 ::date 2012-11-08T09:31:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt The tippler brought his speech to an end , and shut himself up in an impregnable silence .
+# ::save-date Mon Nov 2, 2015 ::file lpp_1943_645.txt
+(a / and
+      :op1 (e / end-01
+            :ARG0 (p / person
+                  :ARG0-of (t / tipple-01))
+            :ARG1 (s / speak-01
+                  :ARG0 p))
+      :op2 (s2 / shut-up-06
+            :ARG0 p
+            :ARG1 p
+            :manner (s3 / silent
+                  :mod (p2 / pregnable :polarity -)
+                  :domain p)))
+
+# ::id lpp_1943.655 ::date 2012-11-08T10:00:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt Twelve and three make fifteen .
+# ::save-date Wed Oct 7, 2015 ::file lpp_1943_655.txt
+(e / equal-01
+      :ARG1 (s / sum-of :op1 12 :op2 3)
+      :ARG2 15)
+
+# ::id lpp_1943.665 ::date 2012-11-08T10:20:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt Are you still there ?
+# ::save-date Mon Sep 18, 2017 ::file lpp_1943_665.txt
+(b / be-located-at-91
+      :ARG1 (y / you)
+      :ARG2 (t / there)
+      :mod (s / still)
+      :polarity (a / amr-unknown))
+
+# ::id lpp_1943.675 ::date 2012-11-09T12:49:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt He made the most frightful noise that resounded all over the place , and I made four mistakes in my addition .
+# ::save-date Wed Sep 20, 2017 ::file lpp_1943_675.txt
+(a / and
+      :op1 (m / make-01
+            :ARG0 (h / he)
+            :ARG1 (n / noise
+                  :ARG1-of (h2 / have-degree-91
+                        :ARG2 (f2 / frighten-01
+                              :ARG0 n)
+                        :ARG3 (m2 / most))
+                  :ARG1-of (r / resound-01
+                        :ARG2 (a4 / all-over
+                              :op1 (p / place)))))
+      :op2 (m4 / mistake-02 :quant 4
+            :ARG0 i
+            :ARG1 (a3 / add-02
+                  :ARG0 (i / i))))
+
+# ::id lpp_1943.685 ::date 2012-11-09T15:48:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Oh , no .
+# ::save-date Wed May 8, 2013 ::file lpp_1943_685.txt
+(n / no
+  :mod (o / oh
+         :mode expressive))
+
+# ::id lpp_1943.695 ::date 2012-11-09T16:24:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt The stars . "
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_695.txt
+(s / star)
+
+# ::id lpp_1943.705 ::date 2012-11-09T16:55:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes . "
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_705.txt
+(y / yes)
+
+# ::id lpp_1943.715 ::date 2012-11-12T15:05:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt " How is it possible for one to own the stars ? "
+# ::save-date Wed May 15, 2013 ::file lpp_1943_715.txt
+(p / possible-01
+      :ARG1 (o / own-01
+            :ARG0 (o2 / one)
+            :ARG1 (s / star))
+      :manner (a / amr-unknown))
+
+# ::id lpp_1943.725 ::date 2012-11-12T15:45:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt So with me : I own the stars , because nobody else before me ever thought of owning them . "
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_725.txt
+(c / cause-01
+      :ARG0 (t / think-01
+            :ARG0 (n / nobody
+                  :mod (e2 / else))
+            :ARG1 (o / own-01
+                  :ARG0 n
+                  :ARG1 (s / star))
+            :time (e / ever)
+            :time (b / before
+                  :op1 (i / i)))
+      :ARG1 (o2 / own-01
+            :ARG0 i
+            :ARG1 s)
+      :ARG1-of (r / resemble-01
+            :beneficiary i))
+
+# ::id lpp_1943.735 ::date 2012-11-12T16:36:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt But you can not pluck the stars from heaven ... "
+# ::save-date Thu May 9, 2013 ::file lpp_1943_735.txt
+(c / contrast-01
+  :ARG2 (p2 / possible-01
+          :polarity -
+          :ARG1 (p / pluck-01
+                    :ARG0 (y / you)
+                    :ARG1 (s / star)
+                    :ARG2 (h / heaven))))
+
+# ::id lpp_1943.745 ::date 2012-11-13T12:24:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt But it is of no great consequence . "
+# ::save-date Thu Nov 2, 2017 ::file lpp_1943_745.txt
+(c / contrast-01
+      :ARG2 (c2 / consequential-01
+            :ARG1 (i / it)
+            :degree (g / great :polarity -)))
+
+# ::id lpp_1943.755 ::date 2012-11-13T16:22:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt The fifth planet was very strange .
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_755.txt
+(s / strange
+  :degree (v / very)
+  :domain (p / planet
+            :ord (o / ordinal-entity :value 5)))
+
+# ::id lpp_1943.765 ::date 2012-11-13T17:47:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt And since it is beautiful , it is truly useful . "
+# ::save-date Thu Nov 5, 2015 ::file lpp_1943_765.txt
+(a / and
+      :op2 (c / cause-01
+            :ARG0 (b / beautiful-02
+                  :ARG1 (i / it))
+            :ARG1 (u / useful-05
+                  :ARG1 i
+                  :degree (t / truly))))
+
+# ::id lpp_1943.775 ::date 2012-11-13T18:29:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But why have you just lighted it again ? "
+# ::save-date Thu May 9, 2013 ::file lpp_1943_775.txt
+(c / contrast-01
+  :ARG2 (c2 / cause-01
+          :ARG0 (a / amr-unknown)
+          :ARG1 (l / light-04
+                  :ARG0 (y / you)
+                  :ARG1 (i / it)
+                  :mod (a2 / again)
+                  :mod (j / just))))
+
+# ::id lpp_1943.785 ::date 2012-11-14T11:28:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt I put the lamp out in the morning , and in the evening I lighted it again .
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_785.txt
+(a / and
+  :op1 (p / put-out-09
+         :ARG0 (i / i)
+         :ARG1 (l / lamp)
+         :time (d2 / date-entity :dayperiod (m / morning)))
+  :op2 (l2 / light-04
+         :ARG0 i
+         :ARG1 l
+         :time (d / date-entity :dayperiod (e / evening))
+         :mod (a2 / again)))
+
+# ::id lpp_1943.795 ::date 2012-11-14T13:33:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt A day lasts only one minute , here where you live ! "
+# ::save-date Wed Sep 18, 2013 ::file lpp_1943_795.txt
+(l / last-01
+      :ARG1 (t / temporal-quantity :quant 1
+            :unit (d / day))
+      :ARG2 (t2 / temporal-quantity :quant 1
+            :unit (m / minute))
+      :mod (o / only)
+      :location (l2 / live-01
+            :ARG0 (y / you)))
+
+# ::id lpp_1943.805 ::date 2012-11-14T15:26:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt He remembered the sunsets which he himself had gone to seek , in other days , merely by pulling up his chair ; and he wanted to help his friend .
+# ::save-date Mon Oct 6, 2014 ::file lpp_1943_805.txt
+(a / and
+      :op1 (r / remember-01
+            :ARG0 (h / he)
+            :ARG1 (s3 / sunset
+                  :ARG1-of (s / seek-01
+                        :purpose-of (g / go-02
+                              :ARG0 h
+                              :manner (p / pull-01
+                                    :ARG0 h
+                                    :ARG1 (c / chair)
+                                    :mod (m / mere)
+                                    :direction (u / up))
+                              :time (d / day
+                                    :mod (o / other))))))
+      :op2 (w / want-01
+            :ARG0 h
+            :ARG1 (h2 / help-01
+                  :ARG0 h
+                  :ARG1 (p2 / person
+                        :ARG0-of (h3 / have-rel-role-91
+                              :ARG1 h
+                              :ARG2 (f / friend))))))
+
+# ::id lpp_1943.815 ::date 2012-11-14T18:06:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am unlucky , " said the lamplighter .
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_815.txt
+(s / say-01
+  :ARG0 (p / person
+          :ARG0-of (l / light-04
+                     :ARG1 (l2 / lamp)))
+  :ARG1 (l3 / lucky
+          :domain p
+          :polarity -))
+
+# ::id lpp_1943.825 ::date 2012-11-15T05:47:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 15 .
+# ::save-date Tue Apr 16, 2013 ::file lpp_1943_825.txt
+(c / chapter
+  :mod 15)
+
+# ::id lpp_1943.835 ::date 2012-11-15T06:21:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am a geographer , " the old gentleman said to him .
+# ::save-date Thu Nov 15, 2012 ::file lpp_1943_835.txt
+(s / say-01
+  :ARG0 (g / gentleman
+          :mod (o / old))
+  :ARG1 (g2 / geographer
+          :domain g)
+  :ARG2 (h / he))
+
+# ::id lpp_1943.845 ::date 2012-11-15T06:42:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah ! "
+# ::save-date Wed May 15, 2013 ::file lpp_1943_845.txt
+(a / ah :mode expressive)
+
+# ::id lpp_1943.855 ::date 2012-11-15T06:53:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is not the geographer who goes out to count the towns , the rivers , the mountains , the seas , the oceans , and the deserts .
+# ::save-date Mon May 25, 2015 ::file lpp_1943_855.txt
+(p2 / person
+      :domain (g / geographer :polarity -)
+      :ARG0-of (g2 / go-02
+            :purpose (c / count-01
+                  :ARG0 g
+                  :ARG1 (a / and
+                        :op1 (t / town)
+                        :op2 (r / river)
+                        :op3 (m / mountain)
+                        :op4 (o2 / ocean)
+                        :op5 (d / desert)
+                        :op6 (s2 / sea)))))
+
+# ::id lpp_1943.865 ::date 2012-11-15T08:56:40 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Because intoxicated men see double .
+# ::save-date Tue May 7, 2013 ::file lpp_1943_865.txt
+(s3 / see-01
+      :ARG0 (m2 / man
+            :ARG1-of (i2 / intoxicate-01))
+      :ARG2 (d / double)
+      :ARG0-of (c2 / cause-01
+            :ARG1 (t2 / thing)))
+
+# ::id lpp_1943.875 ::date 2012-11-15T09:40:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt The geographer was suddenly stirred to excitement .
+# ::save-date Thu Nov 15, 2012 ::file lpp_1943_875.txt
+(s / stir-02
+  :ARG1 (g / geographer)
+  :ARG3 (e / excite-01)
+  :manner (s2 / sudden))
+
+# ::id lpp_1943.885 ::date 2012-11-15T10:15:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt I have three volcanoes .
+# ::save-date Wed May 8, 2013 ::file lpp_1943_885.txt
+(h2 / have-03
+      :ARG0 (i / i)
+      :ARG1 (v / volcano
+            :quant 3))
+
+# ::id lpp_1943.895 ::date 2012-11-15T10:31:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Geographies , " said the geographer , " are the books which , of all books , are most concerned with matters of consequence .
+# ::save-date Thu Nov 2, 2017 ::file lpp_1943_895.txt
+(s / say-01
+      :ARG0 (g / geographer)
+      :ARG1 (b / book
+            :ARG1-of (h / have-degree-91
+                  :ARG2 (c / concern-02
+                        :ARG1 (m2 / matter
+                              :ARG1-of (c2 / consequential-01)))
+                  :ARG3 (m / most)
+                  :ARG5 (b2 / book
+                        :mod (a / all)))
+            :domain (g2 / geography)))
+
+# ::id lpp_1943.905 ::date 2012-11-15T19:58:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But what does that mean - - ' ephemeral ' ? " repeated the little prince , who never in his life had let go of a question , once he had asked it .
+# ::save-date Mon May 25, 2015 ::file lpp_1943_905.txt
+(r / repeat-01
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG0-of (l2 / let-01 :polarity -
+                  :ARG1 (g / go-02
+                        :ARG0 (t / thing
+                              :ARG1-of (q / question-01
+                                    :ARG0 p)))
+                  :time (o / once
+                        :op1 (a2 / ask-01
+                              :ARG1 t))
+                  :time (e2 / ever
+                        :duration (t2 / thing
+                              :ARG1-of (l3 / live-01
+                                    :ARG0 p)))))
+      :ARG1 (c / contrast-01
+            :ARG2 (m / mean-01
+                  :ARG1 (e / ephemeral)
+                  :ARG2 (a / amr-unknown))))
+
+# ::id lpp_1943.915 ::date 2012-11-15T20:42:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It has a good reputation . "
+# ::save-date Wed Nov 4, 2015 ::file lpp_1943_915.txt
+(h2 / have-03
+      :ARG0 (i / it)
+      :ARG1 (r / reputation
+            :ARG1-of (g / good-02)))
+
+# ::id lpp_1943.925 ::date 2012-11-17T18:03:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt Having set their lamps alight , these would go off to sleep .
+# ::save-date Thu Oct 16, 2014 ::file lpp_1943_925.txt
+(g / go-02
+      :ARG0 (t / they)
+      :purpose (s / sleep-01
+            :ARG0 t)
+      :time (a / after
+            :op1 (l2 / light-04
+                  :ARG0 t
+                  :ARG1 (l / lamp
+                        :poss t))))
+
+# ::id lpp_1943.935 ::date 2012-11-17T19:13:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt Men occupy a very small place upon the Earth .
+# ::save-date Thu May 9, 2013 ::file lpp_1943_935.txt
+(o / occupy-01
+      :ARG0 (m / man)
+      :ARG1 (p2 / place
+            :mod (s / small
+                  :degree (v / very))
+            :location (p / planet :wiki "Earth"
+                  :name (n / name :op1 "Earth"))))
+
+# ::id lpp_1943.945 ::date 2012-11-17T19:51:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt You have , I know , confidence in me .
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_945.txt
+(t / trust-01
+      :ARG0 (y / you)
+      :ARG2 (i / i)
+      :ARG1-of (k / know-01
+            :ARG0 i))
+
+# ::id lpp_1943.955 ::date 2012-11-17T20:21:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt There are no people in the desert .
+# ::save-date Mon May 11, 2015 ::file lpp_1943_955.txt
+(p / person :polarity -
+      :location (d / desert))
+
+# ::id lpp_1943.965 ::date 2012-11-17T20:41:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah ! " said the snake .
+# ::save-date Fri May 10, 2013 ::file lpp_1943_965.txt
+(s / say-01
+      :ARG0 (s2 / snake)
+      :ARG1 (a / ah-01))
+
+# ::id lpp_1943.975 ::date 2012-11-18T16:40:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You are not very powerful .
+# ::save-date Fri Jul 17, 2015 ::file lpp_1943_975.txt
+(p / powerful-02
+      :ARG1 (y / you)
+      :degree (v / very :polarity -))
+
+# ::id lpp_1943.985 ::date 2012-11-18T17:27:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt I can - - "
+# ::save-date Thu May 2, 2013 ::file lpp_1943_985.txt
+(p / possible-01
+      :ARG1 (d / do-02
+            :ARG0 (i / i)))
+
+# ::id lpp_1943.995 ::date 2012-11-18T19:45:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " said the flower .
+# ::save-date Wed Nov 4, 2015 ::file lpp_1943_995.txt
+(s / say-01
+      :ARG0 (f / flower-01)
+      :ARG1 (m2 / morning
+            :ARG1-of (g / good-02)))
+
+# ::id lpp_1943.1005 ::date 2012-11-18T20:08:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Goodbye , " said the flower .
+# ::save-date Fri May 3, 2013 ::file lpp_1943_1005.txt
+(s / say-01
+  :ARG0 (f / flower)
+  :ARG1 (g / goodbye))
+
+# ::id lpp_1943.1015 ::date 2012-11-19T17:12:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Who are you - - Who are you - - Who are you ? " answered the echo .
+# ::save-date Mon Nov 19, 2012 ::file lpp_1943_1015.txt
+(a / answer-01
+  :ARG0 (e / echo-01)
+  :ARG2 (y / you
+          :domain (a2 / amr-unknown)))
+
+# ::id lpp_1943.1025 ::date 2012-11-09T07:12:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt But it happened that after walking for a long time through sand , and rocks , and snow , the little prince at last came upon a road .
+# ::save-date Fri Oct 16, 2015 ::file lpp_1943_1025.txt
+(c / contrast-01
+      :ARG2 (c2 / come-upon-26
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG1 (r / road)
+            :time (a / after
+                  :op1 (w / walk-01
+                        :ARG0 p
+                        :path (a2 / and
+                              :op1 (s / sand)
+                              :op2 (r2 / rock)
+                              :op3 (t / thing
+                                    :ARG1-of (s2 / snow-01)))
+                        :ARG1-of (l3 / long-03)))
+            :time (a3 / at-last)))
+
+# ::id lpp_1943.1035 ::date 2012-11-09T08:16:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt His flower had told him that she was the only one of her kind in all the universe .
+# ::save-date Thu Sep 28, 2017 ::file lpp_1943_1035.txt
+(t / tell-01
+      :ARG0 (f / flower
+            :poss (h / he))
+      :ARG1 (u2 / unique-01
+            :ARG1 (s / she)
+            :ARG3 (u / universe
+                  :mod (a / all)))
+      :ARG2 h)
+
+# ::id lpp_1943.1045 ::date 2012-11-11T14:13:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " the little prince responded politely , although when he turned around he saw nothing .
+# ::save-date Thu Nov 5, 2015 ::file lpp_1943_1045.txt
+(r / respond-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG2 (m / morning
+            :ARG1-of (g / good-02))
+      :manner (p2 / polite-01)
+      :concession (s / see-01
+            :ARG0 p
+            :ARG1 (n / nothing)
+            :time (t / turn-01
+                  :ARG1 p
+                  :direction (a / around))))
+
+# ::id lpp_1943.1055 ::date 2012-11-11T14:57:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt But , after some thought , he added : " What does that mean - - ' tame ' ? "
+# ::save-date Sat Mar 14, 2015 ::file lpp_1943_1055.txt
+(c / contrast-01
+      :ARG2 (a / add-01
+            :ARG0 (h / he)
+            :ARG1 (m / mean-01
+                  :ARG1 (t2 / tame-01)
+                  :ARG2 (a3 / amr-unknown))
+            :time (a2 / after
+                  :op1 (t / think-01
+                        :mod (s / some)))))
+
+# ::id lpp_1943.1065 ::date 2012-11-13T07:30:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt Are you looking for chickens ? "
+# ::save-date Mon Sep 18, 2017 ::file lpp_1943_1065.txt
+(l / look-01
+      :ARG0 (y / you)
+      :ARG1 (c / chicken)
+      :polarity (a / amr-unknown))
+
+# ::id lpp_1943.1075 ::date 2012-11-13T07:57:40 ::annotator ISI-AMR-05 ::preferred
+# ::snt And you , on your part , have no need of me .
+# ::save-date Mon Sep 8, 2014 ::file lpp_1943_1075.txt
+(a / and
+      :op2 (n / need-01 :polarity -
+            :ARG0 (y / you)
+            :ARG1 (i / i)))
+
+# ::id lpp_1943.1085 ::date 2012-11-13T08:20:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Oh , but this is not on the Earth ! " said the little prince .
+# ::save-date Fri May 9, 2014 ::file lpp_1943_1085.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (a / and
+            :op1 (o / oh :mode expressive)
+            :op2 (c / contrast-01
+                  :ARG2 (b / be-located-at-91 :polarity -
+                        :ARG1 (t / this)
+                        :ARG2 (p2 / planet :wiki "Earth" :name (n / name :op1 "Earth"))))))
+
+# ::id lpp_1943.1095 ::date 2012-11-13T10:05:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt But he came back to his idea .
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_1095.txt
+(c2 / contrast-01
+  :ARG2 (c / come-01
+          :ARG1 (h / he)
+          :ARG4 (i / idea
+                  :poss h)
+          :direction (b2 / back)))
+
+# ::id lpp_1943.1105 ::date 2012-11-13T10:56:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt I do not eat bread .
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_1105.txt
+(e / eat-01
+  :ARG0 (i / i)
+  :ARG1 (b / bread)
+  :polarity -)
+
+# ::id lpp_1943.1115 ::date 2012-11-18T13:10:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I want to , very much , " the little prince replied .
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1115.txt
+(r / reply-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG2 (w / want-01
+          :ARG0 p
+          :ARG1 (t / tame-01
+                  :ARG0 p
+                  :ARG1 (y / you))
+          :degree (m / much
+                    :degree (v / very))))
+
+# ::id lpp_1943.1125 ::date 2012-11-18T17:56:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " First you will sit down at a little distance from me - - like that - - in the grass .
+# ::save-date Tue Dec 12, 2017 ::file lpp_1943_1125.txt
+(s / sit-down-02
+      :ARG1 (y / you)
+      :time (f / first)
+      :location (r / relative-position
+            :op1 (i / i)
+            :quant (d / distance
+                  :mod (l / little)))
+      :direction (d2 / down
+            :location (g / grass))
+      :example (t / that))
+
+# ::id lpp_1943.1135 ::date 2012-11-20T12:55:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt But if you come at just any time , I shall never know at what hour my heart is to be ready to greet you ...
+# ::save-date Tue Jan 23, 2018 ::file lpp_1943_1135.txt
+(c / contrast-01
+      :ARG2 (k / know-01 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (h3 / hour
+                  :time (r / ready-02
+                        :ARG1 (h2 / heart
+                              :part-of i)
+                        :ARG2 (g / greet-01
+                              :ARG0 h2
+                              :ARG1 (y / you))))
+            :time (e / ever)
+            :condition (c2 / come-01
+                  :ARG1 y
+                  :time (t / time
+                        :mod (a2 / any
+                              :mod (j2 / just))))))
+
+# ::id lpp_1943.1145 ::date 2012-11-21T12:02:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt So the little prince tamed the fox .
+# ::save-date Sun May 12, 2013 ::file lpp_1943_1145.txt
+(c / cause-01
+      :ARG1 (t / tame-01
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG1 (f / fox)))
+
+# ::id lpp_1943.1155 ::date 2012-11-24T15:04:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt You will understand now that yours is unique in all the world .
+# ::save-date Thu Sep 28, 2017 ::file lpp_1943_1155.txt
+(u / understand-01
+      :ARG0 (y / you)
+      :ARG1 (u2 / unique-01
+            :ARG1 (r / rose
+                  :poss y)
+            :ARG3 (w / world
+                  :extent (a / all)))
+      :time (n / now))
+
+# ::id lpp_1943.1165 ::date 2012-11-25T13:32:25 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You are beautiful , but you are empty , " he went on .
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_1165.txt
+(g / go-on-25
+      :ARG0 (h / he)
+      :ARG1 (c / contrast-01
+            :ARG1 (b / beautiful-02
+                  :ARG1 (y / you))
+            :ARG2 (e / empty-02
+                  :ARG1 y)))
+
+# ::id lpp_1943.1175 ::date 2012-11-26T17:36:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is the time you have wasted for your rose that makes your rose so important . "
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1175.txt
+(t / time
+      :ARG1-of (w / waste-01
+            :ARG0 (y / you)
+            :beneficiary (r / rose
+                  :poss y))
+      :ARG0-of (m / make-02
+            :ARG1 (i / important-01
+                  :ARG1 r
+                  :degree (s / so))))
+
+# ::id lpp_1943.1185 ::date 2012-11-27T10:18:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What do you do here ? " the little prince asked .
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1185.txt
+(a / ask-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (d / do-02
+            :ARG0 (y / you)
+            :ARG1 (a2 / amr-unknown)
+            :location (h / here)))
+
+# ::id lpp_1943.1195 ::date 2012-11-27T11:06:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is an exchange . "
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1195.txt
+(e / exchange-01
+      :domain (i / it))
+
+# ::id lpp_1943.1205 ::date 2012-11-27T12:50:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt " They are lucky , " the switchman said .
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1205.txt
+(s / say-01
+      :ARG0 (s2 / switchman)
+      :ARG1 (l / lucky
+            :domain (t / they)))
+
+# ::id lpp_1943.1215 ::date 2012-11-27T13:19:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And what do I do with those fifty - three minutes ? "
+# ::save-date Sun May 12, 2013 ::file lpp_1943_1215.txt
+(a / and
+      :op1 (d / do-02
+            :ARG0 (i / i)
+            :ARG1 (a2 / amr-unknown)
+            :ARG2 (t / temporal-quantity :quant 53
+                  :unit (m / minute)
+                  :mod (t2 / that))))
+
+# ::id lpp_1943.1225 ::date 2012-11-15T19:33:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Because I am about to die of thirst ... "
+# ::save-date Fri Feb 14, 2014 ::file lpp_1943_1225.txt
+(c / cause-01
+      :ARG0 (d / die-01
+            :ARG1 (i / i)
+            :ARG1-of (c2 / cause-01
+                  :ARG0 (t / thirst-01
+                        :ARG0 i))
+            :time (a / about-to)))
+
+# ::id lpp_1943.1235 ::date 2012-11-15T20:22:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is absurd to look for a well , at random , in the immensity of the desert .
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_1235.txt
+(a / absurd
+  :domain (l / look-01
+            :ARG1 (w / well)
+            :location (d / desert
+                        :mod (i / immense))
+            :manner (r / random)))
+
+# ::id lpp_1943.1245 ::date 2012-11-28T15:38:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt He was tired .
+# ::save-date Wed Nov 28, 2012 ::file lpp_1943_1245.txt
+(t / tire-01
+      :ARG1 (h / he))
+
+# ::id lpp_1943.1255 ::annotator ISI-AMR-05 ::preferred
+# ::snt Yet through the silence something throbs , and gleams ...
+# ::save-date Mon Nov 2, 2015 ::file lpp_1943_1255.txt
+(a2 / and
+      :op1 (t / throb-01
+            :ARG1 (s / something))
+      :op2 (g / gleam-01
+            :ARG0 s)
+      :concession (s2 / silent))
+
+# ::id lpp_1943.1265 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am glad , " he said , " that you agree with my fox . "
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_1265.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (g / glad-02
+            :ARG0 (a / agree-01
+                  :ARG0 (y / you)
+                  :ARG2 (f / fox
+                        :poss h))
+            :ARG1 h))
+
+# ::id lpp_1943.1275 ::annotator ISI-AMR-05 ::preferred
+# ::snt And , as I walked on so , I found the well , at daybreak .
+# ::save-date Mon Feb 2, 2015 ::file lpp_1943_1275.txt
+(a / and
+      :op2 (f / find-01
+            :ARG0 (i / i)
+            :ARG1 (w / well)
+            :time (d / daybreak)
+            :time (w2 / walk-01
+                  :ARG0 i
+                  :mod (o / on)
+                  :manner (s / so))))
+
+# ::id lpp_1943.1285 ::annotator ISI-AMR-05 ::preferred
+# ::snt I said to the little prince .
+# ::save-date Thu Nov 29, 2012 ::file lpp_1943_1285.txt
+(s / say-01
+  :ARG0 (i / i)
+  :ARG2 (p / prince
+          :mod (l / little)))
+
+# ::id lpp_1943.1295 ::annotator ISI-AMR-05 ::preferred
+# ::snt I hoisted the bucket slowly to the edge of the well and set it there - - happy , tired as I was , over my achievement .
+# ::save-date Tue Dec 12, 2017 ::file lpp_1943_1295.txt
+(a / and
+      :op1 (h / hoist-01
+            :ARG0 (i / i)
+            :ARG1 (b / bucket)
+            :ARG1-of (s / slow-05)
+            :destination (e / edge
+                  :part-of (w / well)))
+      :op2 (s2 / set-01
+            :ARG0 i
+            :ARG1 b
+            :ARG2 e)
+      :ARG0-of (c / cause-01
+            :ARG1 (h2 / happy-01
+                  :ARG0 (t3 / thing
+                        :ARG1-of (a2 / achieve-01
+                              :ARG0 i))
+                  :ARG1 i
+                  :concession (t2 / tire-01
+                        :ARG1 i))))
+
+# ::id lpp_1943.1305 ::annotator ISI-AMR-05 ::preferred
+# ::snt It was good for the heart , like a present .
+# ::save-date Thu Apr 16, 2015 ::file lpp_1943_1305.txt
+(g / good-04
+      :ARG1 (i / it
+            :ARG1-of (r / resemble-01
+                  :ARG2 (p / present)))
+      :ARG2 (h / heart))
+
+# ::id lpp_1943.1315 ::annotator ISI-AMR-05 ::preferred
+# ::snt I had drunk the water .
+# ::save-date Fri Nov 30, 2012 ::file lpp_1943_1315.txt
+(d / drink-01
+  :ARG0 (i / i)
+  :ARG1 (w / water))
+
+# ::id lpp_1943.1325 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince looked them over , and laughed as he said : " Your baobabs - - they look a little like cabbages . "
+# ::save-date Wed May 8, 2013 ::file lpp_1943_1325.txt
+(a / and
+      :op1 (l / look-01
+            :ARG0 (p / prince
+                  :mod (l2 / little))
+            :ARG1 (t / they))
+      :op2 (l3 / laugh-01
+            :ARG0 p
+            :time (s / say-01
+                  :ARG0 p
+                  :ARG1 (l4 / look-02
+                        :ARG0 (b / baobab
+                              :poss (y / you))
+                        :ARG1 (c / cabbage)
+                        :degree (l5 / little)))))
+
+# ::id lpp_1943.1335 ::annotator ISI-AMR-05 ::preferred
+# ::snt And as I gave it to him my heart was torn .
+# ::save-date Wed May 8, 2013 ::file lpp_1943_1335.txt
+(a / and
+  :op2 (t / tear-01
+         :ARG1 (h / heart
+                 :part-of (i / i))
+         :time (g / give-01
+                 :ARG0 i
+                 :ARG1 (i2 / it)
+                 :ARG2 (h2 / he))))
+
+# ::id lpp_1943.1345 ::annotator ISI-AMR-05 ::preferred
+# ::snt You were on the your back to the place where you landed ? "
+# ::save-date Tue Jan 23, 2018 ::file lpp_1943_1345.txt
+(g / go-02
+      :ARG1 (y / you)
+      :ARG4 (p2 / place
+            :location-of (l / land-01
+                  :ARG0 y))
+      :polarity (a / amr-unknown)
+      :direction (b / back))
+
+# ::id lpp_1943.1355 ::annotator ISI-AMR-05 ::preferred
+# ::snt I will be waiting for you here .
+# ::save-date Mon Dec 3, 2012 ::file lpp_1943_1355.txt
+(w / wait-01
+      :ARG1 (i / i)
+      :ARG2 (y / you)
+      :location (h / here))
+
+# ::id lpp_1943.1365 ::annotator ISI-AMR-05 ::preferred
+# ::snt Another voice must have answered him , for he replied to it : " Yes , yes !
+# ::save-date Tue May 14, 2013 ::file lpp_1943_1365.txt
+(o / obligate-01
+      :ARG0 (v / voice
+            :mod (a / another))
+      :ARG1 h2
+      :ARG2 (a2 / answer-01)
+      :ARG0-of (c / cause-01
+            :ARG1 (r / reply-01
+                  :ARG0 (h2 / he)
+                  :ARG2 (y / yes))))
+
+# ::id lpp_1943.1375 ::annotator ISI-AMR-05 ::preferred
+# ::snt You are sure that it will not make me suffer too long ? "
+# ::save-date Thu Sep 21, 2017 ::file lpp_1943_1375.txt
+(s2 / sure-02
+      :ARG0 (y / you)
+      :ARG1 (h / have-degree-91 :polarity -
+            :ARG1 (s / suffer-01
+                  :ARG0 (i / i)
+                  :ARG1 (i2 / it))
+            :ARG2 (l / long-03
+                  :ARG1 s)
+            :ARG3 (t / too))
+      :polarity (a / amr-unknown))
+
+# ::id lpp_1943.1385 ::annotator ISI-AMR-05 ::preferred
+# ::snt I demanded .
+# ::save-date Sat Dec 29, 2012 ::file lpp_1943_1385.txt
+(d / demand-01
+  :ARG0 (i / i))
+
+# ::id lpp_1943.1395 ::annotator ISI-AMR-05 ::preferred
+# ::snt I was just coming to tell him that my work had been successful , beyond anything that I had dared to hope .
+# ::save-date Sat Jan 10, 2015 ::file lpp_1943_1395.txt
+(c / come-01
+      :ARG1 (i / i)
+      :purpose (t / tell-01
+            :ARG0 i
+            :ARG1 (s2 / succeed-01
+                  :ARG1 (w / work-01
+                        :ARG0 i)
+                  :degree (b / beyond
+                        :op1 (a / anything
+                              :ARG1-of (h2 / hope-01
+                                    :ARG0 i
+                                    :ARG2-of (d / dare-01
+                                          :ARG1 i)))))
+            :ARG2 (h / he))
+      :mod (j / just))
+
+# ::id lpp_1943.1405 ::annotator ISI-AMR-05 ::preferred
+# ::snt I waited a long time .
+# ::save-date Thu Jun 4, 2015 ::file lpp_1943_1405.txt
+(w / wait-01
+      :ARG1 (i / i)
+      :ARG1-of (l / long-03))
+
+# ::id lpp_1943.1415 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Little man , "
+# ::save-date Sun Dec 30, 2012 ::file lpp_1943_1415.txt
+(m / man
+  :mod (l / little))
+
+# ::id lpp_1943.1425 ::annotator ISI-AMR-05 ::preferred
+# ::snt All the stars are a - bloom with flowers ... "
+# ::save-date Thu Apr 25, 2013 ::file lpp_1943_1425.txt
+(b / bloom-01
+      :ARG0 (f / flower)
+      :location (s / star
+            :mod (a / all)))
+
+# ::id lpp_1943.1435 ::annotator ISI-AMR-05 ::preferred
+# ::snt And so you will love to watch all the stars in the heavens ... they will all be your friends .
+# ::save-date Fri Apr 18, 2014 ::file lpp_1943_1435.txt
+(a / and
+      :op2 (l / love-01
+            :ARG0 (y / you)
+            :ARG1 (w / watch-01
+                  :ARG0 y
+                  :ARG1 (s / star
+                        :location (h / heaven)
+                        :mod (a2 / all)
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 y
+                              :ARG2 (f / friend))))))
+
+# ::id lpp_1943.1445 ::annotator ISI-AMR-05 ::preferred
+# ::snt For some , who are travelers , the stars are guides .
+# ::save-date Sun Dec 30, 2012 ::file lpp_1943_1445.txt
+(g / guide-01
+  :ARG0 (s / star)
+  :ARG1 (s2 / some
+          :ARG0-of (t / travel-01)))
+
+# ::id lpp_1943.1455 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he laughed again .
+# ::save-date Thu Apr 25, 2013 ::file lpp_1943_1455.txt
+(a / and
+      :op2 (l / laugh-01
+            :ARG0 (h / he)
+            :mod (a2 / again)))
+
+# ::id lpp_1943.1465 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then he quickly became serious : " Tonight - - you know ... do not come , " said the little prince .
+# ::save-date Wed Nov 4, 2015 ::file lpp_1943_1465.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG1-of (b / become-01
+                  :ARG2 (s2 / serious-01
+                        :ARG1 p)
+                  :ARG1-of (q / quick-02)
+                  :time (t / then)))
+      :ARG1 (c / come-01 :mode imperative :polarity -
+            :ARG1 (y / you)
+            :time (d / date-entity :dayperiod (n / night) :mod (t2 / today))))
+
+# ::id lpp_1943.1475 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I tell you - - it is also because of the snake .
+# ::save-date Sun Apr 21, 2013 ::file lpp_1943_1475.txt
+(t / tell-01
+      :ARG0 (i / i)
+      :ARG1 (c / cause-01
+            :ARG0 (s / snake)
+            :mod (a / also))
+      :ARG2 (y / you))
+
+# ::id lpp_1943.1485 ::annotator ISI-AMR-05 ::preferred
+# ::snt You are there ... "
+# ::save-date Sun Dec 30, 2012 ::file lpp_1943_1485.txt
+(y / you
+  :location (t / there))
+
+# ::id lpp_1943.1495 ::annotator ISI-AMR-05 ::preferred
+# ::snt I said nothing .
+# ::save-date Sun Dec 30, 2012 ::file lpp_1943_1495.txt
+(s / say-01
+  :ARG0 (i / i)
+  :ARG1 (n / nothing))
+
+# ::id lpp_1943.1505 ::annotator ISI-AMR-05 ::preferred
+# ::snt " That will be so amusing !
+# ::save-date Tue May 14, 2013 ::file lpp_1943_1505.txt
+(a / amuse-01
+      :ARG0 (t / that)
+      :degree (s / so))
+
+# ::id lpp_1943.1515 ::annotator ISI-AMR-05 ::preferred
+# ::snt She has four thorns , of no use at all , to protect herself against all the world ... "
+# ::save-date Tue Dec 26, 2017 ::file lpp_1943_1515.txt
+(h / have-03
+      :ARG0 (s / she)
+      :ARG1 (t / thorn :quant 4
+            :ARG1-of (u / use-01 :polarity -
+                  :degree (a2 / at-all)))
+      :purpose (p / protect-01
+            :ARG0 t
+            :ARG1 s
+            :ARG2 (w / world
+                  :mod (a / all))))
+
+# ::id lpp_1943.1525 ::annotator ISI-AMR-05 ::preferred
+# ::snt There was not even any sound , because of the sand .
+# ::save-date Tue Apr 16, 2013 ::file lpp_1943_1525.txt
+(s / sound-02 :polarity -
+      :mod (a / any
+            :mod (e / even))
+      :ARG1-of (c / cause-01
+            :ARG0 (s2 / sand)))
+
+# ::id lpp_1943.1535 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is like five hundred million little bells ...
+# ::save-date Tue May 21, 2013 ::file lpp_1943_1535.txt
+(r / resemble-01
+      :ARG1 (i / it)
+      :ARG2 (b / bell :quant 500000000
+            :mod (l / little)))
+
+# ::id lpp_1943.1545 ::annotator ISI-AMR-05 ::preferred
+# ::snt On some one evening he forgot the glass globe , or the sheep got out , without making any noise , in the night ... "
+# ::save-date Tue Mar 1, 2016 ::file lpp_1943_1545.txt
+(o / or
+      :op1 (f / forget-01
+            :ARG0 (h / he)
+            :ARG1 (g / globe
+                  :consist-of (g2 / glass)))
+      :op2 (e / escape-01
+            :ARG0 (s / sheep)
+            :time (d / date-entity
+                  :dayperiod (n / night))
+            :manner (s3 / sound-02 :polarity -
+                  :ARG1 s
+                  :mod (a2 / any)))
+      :time (d2 / date-entity
+            :dayperiod (e2 / evening)
+            :mod (s2 / some)))
+
+# ::id lpp_1943.1555 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is the same as that on the preceding page , but I have drawn it again to impress it on your memory .
+# ::save-date Thu Apr 25, 2013 ::file lpp_1943_1555.txt
+(c / contrast-01
+      :ARG1 (s / same-01
+            :ARG1 (i / it)
+            :ARG2 (t / that
+                  :location (p / page
+                        :ARG1-of (p2 / precede-01))))
+      :ARG2 (d / draw-01
+            :ARG0 i
+            :ARG1 i
+            :mod (a / again)
+            :purpose (i2 / impress-01
+                  :ARG0 i
+                  :ARG1 (m / memory
+                        :poss (y / you)))))
+

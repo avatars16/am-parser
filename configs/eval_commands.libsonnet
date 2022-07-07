@@ -6,8 +6,8 @@ local CONCEPTNET = "/proj/irtg.shadow/data/conceptnet-assertions-5.7.0.csv.gz";
 
 
 local MTOOL = "/proj/irtg.shadow/tools/mtool/main.py";
-local base_directory = "/local/mlinde/am-parser";
-
+#Change this to your current working dir
+local base_directory = "/home/bevelo/Documents/thesis/am-parser";
 local tool_dir = base_directory + "/external_eval_tools/";
 
 local data_paths = import 'data_paths.libsonnet';
@@ -30,6 +30,8 @@ local sdp_regexes = {
   "extra_dependencies" : {
     "AMR-2015" : [WORDNET],
     "AMR-2017" : [WORDNET],
+    "AMR-toy" : [WORDNET],
+    "AMR-lprince" : [WORDNET],
     "MRP-DM" : [MTOOL],
     "MRP-PSD" : [MTOOL],
     "MRP-EDS" : [MTOOL],
@@ -64,7 +66,7 @@ local sdp_regexes = {
         "AMR-2015" : {
             "type" : "bash_evaluation_command",
             "command" : 'java -cp '+ALTO_PATH+' de.saar.coli.amrtagging.formalisms.amr.tools.EvaluateCorpus --corpus {system_output} -o {tmp}/ --relabel --wn '+WORDNET+
-                ' --lookup data/AMR/test/lookup/ --th 10' +
+                ' --lookup data/AMR/2015/lookup/ --th 10' +
             '&& python2 '+tool_dir+'/smatch/smatch.py -f {tmp}/parserOut.txt {gold_file} --pr --significant 4 > {tmp}/metrics.txt && cat {tmp}/metrics.txt',
             "result_regexes" : {"P" : [0, "Precision: (?P<value>.+)"],
                                 "R" : [1, "Recall: (?P<value>.+)"],
@@ -74,7 +76,7 @@ local sdp_regexes = {
         "AMR-2017" : {
             "type" : "bash_evaluation_command",
             "command" : 'java -cp '+ALTO_PATH+' de.saar.coli.amrtagging.formalisms.amr.tools.EvaluateCorpus --corpus {system_output} -o {tmp}/ --relabel --wn '+WORDNET+
-                ' --lookup data/AMR/test/lookup/ --th 10' +
+                ' --lookup data/AMR/lprince/lookup/ --th 10' +
             '&& python2 '+tool_dir+'/smatch/smatch.py -f {tmp}/parserOut.txt {gold_file} --pr --significant 4 > {tmp}/metrics.txt && cat {tmp}/metrics.txt',
             "result_regexes" : {"P" : [0, "Precision: (?P<value>.+)"],
                                 "R" : [1, "Recall: (?P<value>.+)"],
@@ -85,6 +87,26 @@ local sdp_regexes = {
             "type" : "bash_evaluation_command",
             "command" : 'java -cp '+ALTO_PATH+' de.saar.coli.amrtagging.formalisms.amr.tools.EvaluateCorpus --corpus {system_output} -o {tmp}/ --relabel --wn '+WORDNET+
                 ' --lookup data/AMR/2020/lookup/ --th 10' +
+            '&& python2 '+tool_dir+'/smatch/smatch.py -f {tmp}/parserOut.txt {gold_file} --pr --significant 4 > {tmp}/metrics.txt && cat {tmp}/metrics.txt',
+            "result_regexes" : {"P" : [0, "Precision: (?P<value>.+)"],
+                                "R" : [1, "Recall: (?P<value>.+)"],
+                                "F" : [2, "F-score: (?P<value>.+)"]}
+        },
+
+        "AMR-toy" : {
+            "type" : "bash_evaluation_command",
+            "command" : 'java -cp '+ALTO_PATH+' de.saar.coli.amrtagging.formalisms.amr.tools.EvaluateCorpus --corpus {system_output} -o {tmp}/ --relabel --wn '+WORDNET+
+                ' --lookup data/AMR/toy/lookup/ --th 10' +
+            '&& python2 '+tool_dir+'/smatch/smatch.py -f {tmp}/parserOut.txt {gold_file} --pr --significant 4 > {tmp}/metrics.txt && cat {tmp}/metrics.txt',
+            "result_regexes" : {"P" : [0, "Precision: (?P<value>.+)"],
+                                "R" : [1, "Recall: (?P<value>.+)"],
+                                "F" : [2, "F-score: (?P<value>.+)"]}
+        },
+
+        "AMR-lprince" : {
+            "type" : "bash_evaluation_command",
+            "command" : 'java -cp '+ALTO_PATH+' de.saar.coli.amrtagging.formalisms.amr.tools.EvaluateCorpus --corpus {system_output} -o {tmp}/ --relabel --wn '+WORDNET+
+                ' --lookup data/AMR/lprince/lookup/ --th 10' +
             '&& python2 '+tool_dir+'/smatch/smatch.py -f {tmp}/parserOut.txt {gold_file} --pr --significant 4 > {tmp}/metrics.txt && cat {tmp}/metrics.txt',
             "result_regexes" : {"P" : [0, "Precision: (?P<value>.+)"],
                                 "R" : [1, "Recall: (?P<value>.+)"],
@@ -142,6 +164,8 @@ local sdp_regexes = {
         "AMR-2015": "+AMR-2015_F",
         "AMR-2017": "+AMR-2017_F",
         "AMR-2020": "+AMR-2020_F",
+        "AMR-toy": "+AMR-toy_F",
+        "AMR-lprince": "+AMR-prince_F",
 
         "MRP-DM" : "+MRP-DM_mrp_all_f",
         "MRP-PSD" : "+MRP-PSD_mrp_all_f",
