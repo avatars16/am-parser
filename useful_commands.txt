@@ -13,6 +13,8 @@ python -u train.py jsonnets/single/bert/AMR-2017.jsonnet -s data/AMR/lprince/mod
 
 python -u train.py jsonnets/single/bert/AMR-2017.jsonnet -s data/AMR/toy/model  -f --file-friendly-logging  -o ' {"trainer" : {"cuda_device" :  -1  } }' &> data/AMR/toy/toytraining.log
 
+python -u train.py jsonnets/single/bert/AMR-toy.jsonnet -s data/AMR/toy/model  -f --file-friendly-logging  -o ' {"trainer" : {"cuda_device" :  -1  } }' --comet 1DPtT0vGRmSNy1f1q2OhYYXNz --project thesis-am-parser &> data/AMR/toy/toytraining.log
+
 
 #evaluating the model
 bash scripts/predict.sh -i <input corpus file> -T <graph formalism> -o <output directory> -m <your model>

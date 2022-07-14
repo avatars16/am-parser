@@ -66,8 +66,8 @@ function (dataset_reader, data_iterator) {
     "AMR-2017" :  {
         "type": "standard_evaluator",
         "formalism" : "AMR-2017",
-        "system_input" : "data/AMR/lprince/dev/dev.amconll",
-        "gold_file": "data/AMR/lprince/dev/goldAMR.txt",
+        "system_input" : "data/AMR/2017/dev/dev.amconll",
+        "gold_file": "data/AMR/2017/dev/goldAMR.txt",
         "use_from_epoch" : 10,
         "predictor" : {
                 "type" : "amconll_predictor",
@@ -101,7 +101,7 @@ function (dataset_reader, data_iterator) {
 
         "AMR-toy" :  {
                 "type": "standard_evaluator",
-                "formalism" : "AMR-toy",
+                "formalism" : "AMR-2017",
                 "system_input" : "data/AMR/toy/dev/dev.amconll",
                 "gold_file": "data/AMR/toy/dev/goldAMR.txt",
                 "use_from_epoch" : 10,
@@ -112,14 +112,14 @@ function (dataset_reader, data_iterator) {
                         "k" : k,
                         "threads" : 4,
                         "give_up": give_up, #retry with smaller k
-                        "evaluation_command" : eval_commands['commands']['AMR-toy']
+                        "evaluation_command" : eval_commands['commands']['AMR-2017']
           }
 
     },
 
         "AMR-lprince" :  {
                 "type": "standard_evaluator",
-                "formalism" : "AMR-lprince",
+                "formalism" : "AMR-2017",
                 "system_input" : "data/AMR/lprince/dev/dev.amconll",
                 "gold_file": "data/AMR/lprince/dev/goldAMR.txt",
                 "use_from_epoch" : 10,
@@ -130,7 +130,7 @@ function (dataset_reader, data_iterator) {
                         "k" : k,
                         "threads" : 4,
                         "give_up": give_up, #retry with smaller k
-                        "evaluation_command" : eval_commands['commands']['AMR-lprince']
+                        "evaluation_command" : eval_commands['commands']['AMR-2017']
           }
 
     },

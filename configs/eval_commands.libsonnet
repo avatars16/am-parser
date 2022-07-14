@@ -76,7 +76,7 @@ local sdp_regexes = {
         "AMR-2017" : {
             "type" : "bash_evaluation_command",
             "command" : 'java -cp '+ALTO_PATH+' de.saar.coli.amrtagging.formalisms.amr.tools.EvaluateCorpus --corpus {system_output} -o {tmp}/ --relabel --wn '+WORDNET+
-                ' --lookup data/AMR/lprince/lookup/ --th 10' +
+                ' --lookup data/AMR/2017/lookup/ --th 10' +
             '&& python2 '+tool_dir+'/smatch/smatch.py -f {tmp}/parserOut.txt {gold_file} --pr --significant 4 > {tmp}/metrics.txt && cat {tmp}/metrics.txt',
             "result_regexes" : {"P" : [0, "Precision: (?P<value>.+)"],
                                 "R" : [1, "Recall: (?P<value>.+)"],

@@ -36,7 +36,7 @@ local final_encoder_output_dim = 2 * encoder_output_dim + use_freda * 2 * encode
 
 #============TASKS==============
 local my_tasks = ["AMR-toy"];
-local main_task = "AMR-toy"; #what validation metric to pay attention to.
+local main_task = "AMR-2017"; #what validation metric to pay attention to.
 #===============================
 
 local dataset_reader = {
@@ -61,8 +61,11 @@ local data_iterator = {
     "iterator": data_iterator,
      "vocabulary" : {
             "min_count" : {
-            "lemmas" : 7
-     }
+                "lemmas" : 7
+            },
+            "tokens_to_add": {
+                "ner_labels": [ "@@UNKNOWN@@" ],
+            }
      },
     "model": {
         "type": "graph_dependency_parser",

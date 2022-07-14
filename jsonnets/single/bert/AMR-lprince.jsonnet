@@ -36,7 +36,7 @@ local final_encoder_output_dim = 2 * encoder_output_dim + use_freda * 2 * encode
 
 #============TASKS==============
 local my_tasks = ["AMR-lprince"];
-local main_task = "AMR-lprince"; #what validation metric to pay attention to.
+local main_task = "AMR-2017"; #what validation metric to pay attention to.
 #===============================
 
 local dataset_reader = {

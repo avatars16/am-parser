@@ -82,8 +82,8 @@ function (dataset_reader, data_iterator) {
     "AMR-2017" :  [ ["AMR-2017",{ #prefix used for evaluation metric
         "type": "standard_evaluator",
         "formalism" : "AMR-2017",
-        "system_input" : "data/AMR/toy/test/test.amconll",
-        "gold_file": "data/AMR/toy/test/goldAMR.txt",
+        "system_input" : "data/AMR/2017/test/test.amconll",
+        "gold_file": "data/AMR/2017/test/goldAMR.txt",
         "predictor" : {
                 "type" : "amconll_predictor",
                 "dataset_reader" : dataset_reader,
@@ -115,7 +115,7 @@ function (dataset_reader, data_iterator) {
 
     "AMR-toy" :  [ ["AMR-toy",{ #prefix used for evaluation metric
           "type": "standard_evaluator",
-          "formalism" : "AMR-toy",
+          "formalism" : "AMR-2017",
           "system_input" : "data/AMR/toy/test/test.amconll",
           "gold_file": "data/AMR/toy/test/goldAMR.txt",
           "predictor" : {
@@ -132,7 +132,7 @@ function (dataset_reader, data_iterator) {
 
     "AMR-lprince" :  [ ["AMR-lprince",{ #prefix used for evaluation metric
           "type": "standard_evaluator",
-          "formalism" : "AMR-lprince",
+          "formalism" : "AMR-2017",
           "system_input" : "data/AMR/lprince/test/test.amconll",
           "gold_file": "data/AMR/lprince/test/goldAMR.txt",
           "predictor" : {
